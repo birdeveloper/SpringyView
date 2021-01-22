@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpringyNestedScrollView">
+        <attr name="scrollAnimationSize" format="float"/>
+        <attr name="flingAnimationSize" format="float"/>
+        <attr name="dampingScoll" format="integer">
+            <enum name="NO_BOUNCY" value="0" />
+            <enum name="LOW_BOUNCY" value="1" />
+            <enum name="MEDIUM_BOUNCY" value="2" />
+            <enum name="HIGH_BOUNCY" value="3" />
+        </attr>
+        <attr name="stiffnessScroll" format="integer">
+            <enum name="VERY_LOW" value="0" />
+            <enum name="LOW" value="1" />
+            <enum name="MEDIUM" value="2" />
+            <enum name="HIGH" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SpringyRecyclerView">
+        <attr name="scrollAnimSize" format="float"/>
+        <attr name="flingAnimSize" format="float"/>
+        <attr name="dragAgain" format="boolean"/>
+        <attr name="swipe" format="boolean"/>
+        <attr name="damping" format="integer">
+            <enum name="NO_BOUNCY" value="0" />
+            <enum name="LOW_BOUNCY" value="1" />
+            <enum name="MEDIUM_BOUNCY" value="2" />
+            <enum name="HIGH_BOUNCY" value="3" />
+        </attr>
+        <attr name="stiffness" format="integer">
+            <enum name="VERY_LOW" value="0" />
+            <enum name="LOW" value="1" />
+            <enum name="MEDIUM" value="2" />
+            <enum name="HIGH" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

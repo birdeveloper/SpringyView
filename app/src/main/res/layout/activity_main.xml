@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <com.birdeveloper.springyview.SpringyRecyclerView
+        android:id="@+id/springyRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flingAnimationSize="0.7"
+        app:scrollAnimSize="0.7"
+        app:damping="LOW_BOUNCY"
+        app:stiffness="MEDIUM"
+        app:dragAgain="true"
+        app:swipe="false"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
